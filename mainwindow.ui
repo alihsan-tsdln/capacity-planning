@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1050</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="girdi_btn">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>340</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Makine Girdisi</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ad_ln">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>PROJE ADI</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>20</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>BOHRWERK</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="bohrwerk_ds">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>40</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <double>1000000.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>20</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>TORNA</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="torna_ds">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>40</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <double>1000000.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>20</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>CNC</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="cnc_ds">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>40</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <double>1000000.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>20</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>KAYNAK</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="kaynak_ds">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>40</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <double>1000000.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>20</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>MONTAJ</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="montaj_ds">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>40</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <double>1000000.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>20</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>ELEKTRONİK MONTAJ</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="elektro_ds">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>40</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <double>1000000.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ekle_btn">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>100</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ekle</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="goster_btn">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>340</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Projeleri Göster</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="siparis_sayisi_lbl">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>210</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="siparis_edilen_lbl">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>270</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="kalan_siparis_lbl">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>330</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="excel_ekle_btn">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>340</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Excel Ekle</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1050</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Makine_Girdisi</class>
+ <widget class="QDialog" name="Makine_Girdisi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>581</width>
+    <height>233</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Makine Sayısı : </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Makine Çalışma Süresi : </string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sure_spn">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>110</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>999999</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sayi_spn">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>80</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>999999</number>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="tip_cmb">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>50</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Bohrwerk</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Torna</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CNC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kaynak</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Montaj</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Elektrik Montaj</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Makine Tipi : </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sonuc_lbl">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>50</y>
+     <width>261</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Toplam Çalışma Süresi : 0 dk</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ekle_btn">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>160</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ekle</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
